@@ -70,10 +70,10 @@ body {
 .position{color: rgb(60, 6, 255);}
 
 .text-highlight{
-   background-color: red;
+   font-weight: bold;
    border-radius: 8px;
-   color: white;
 }
+.highlight{color: red;}
 
 .footer-bottom{
    background: linear-gradient(rgb(12, 8, 233), rgb(0, 200, 255));
