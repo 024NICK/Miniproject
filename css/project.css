@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(255, 255, 255);
+}
+    
+/* header */
+.header {
+  background: linear-gradient(rgb(12, 8, 233), rgb(0, 200, 255));
+  box-shadow: 0 4px 6px rgb(223, 219, 219); 
+
+  padding: 1.5rem;
+
+}
+
+.header-content {
+    color: white;
+
+    text-align: center;
+}
+
+.header-title {
+    font-size: 5rem;
+}
+
+/* Personal */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.personal-title{
+    text-align: center;
+    color: red;
+
+    margin: 1.5rem;
+}
+
+.personal-card{
+    display: flex;
+    gap: 20px;
+}
+.personal-card img {
+    border-radius: 8px;
+}
+
+.personal-content{
+    font-size: 1.2rem;
+}
+
+.text-intro{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.text-position{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.position{color: rgb(60, 6, 255);}
+
+.text-highlight{
+   background-color: red;
+   border-radius: 8px;
+   color: white;
+}
+
+.footer-bottom{
+   background: linear-gradient(rgb(12, 8, 233), rgb(0, 200, 255));
+   box-shadow: 0 4px 6px rgb(223, 219, 219);
+   color: white;
+
+    text-align: center;
+
+    padding-block: 1.5rem;
+    margin-top: 2rem;
+    width: 100%D;
+}
